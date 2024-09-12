@@ -73,11 +73,11 @@ button {
 }
 
 .add-button {
-  background-color: #61a8ff;
+  background-color: #398bf0;
 }
 
 .done-button {
-  background-color: #ffc802;
+  background-color: #3bb900;
   padding: 0 10px;
 }
 
@@ -94,11 +94,11 @@ main li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  padding: 20px;
 }
 
-main li:last-child {
-  margin-bottom: 0;
+main li:nth-child(odd) {
+  background-color: #00005a;
 }
 
 footer {
